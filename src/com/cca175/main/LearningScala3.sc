@@ -37,4 +37,8 @@ def transformInt(x:Int, f:Int => Int) : Int ={
 	
 	transformString("lamda", x=>{x.toUpperCase})
                                                   //> res6: String = LAMDA
+                                                  
+  transformString("SPS Project", x=>{x.toLowerCase()})
+                                                  //> res7: String = sps project
+  
 }
